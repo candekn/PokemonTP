@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css"
+        href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css"
+        href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+</head>
+<body>
+<nav class="navbar justify-content-between">
+    <a class="navbar-brand" href="Index.html"></a>
+    <form class="form-inline">
+        <input class="form-control mr-sm-3" type="search" placeholder="Buscar..."
+               aria-label="Search">
+        <button class="btn submit buscar" type="submit">Buscar</button>
+    </form>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-xl-6 mx-auto">
+      <div class="card card-signin flex-row my-5">
+        <div class="card-img-left d-none d-md-flex">
+          <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center">Registro</h5>
+          <form class="form-signin" method="post" action="registro.html">
+            <div class="form-label-group">
+              <input type="text" id="inputUserame" class="form-control" placeholder="Nombre de usuario"
+                     required autofocus>
+              <label class="labels" for="inputUserame">Ingrese su nombre de usuario</label>
+            </div>
+
+            <div class="form-label-group">
+              <input type="email" id="inputEmail" class="form-control"
+                     placeholder="Ejemplo@email.xyz" required>
+              <label class="labels" for="inputEmail">Ingrese su email</label>
+            </div>
+
+            <hr>
+
+            <div class="form-label-group">
+              <input type="password" id="inputPassword" class="form-control"
+                     placeholder="Contraseña" required>
+              <label class="labels" for="inputPassword">Ingrese su contraseña</label>
+            </div>
+
+            <div class="form-label-group">
+              <input type="password" id="inputConfirmPassword" class="form-control"
+                     placeholder="Contraseña" required>
+              <label class="labels" for="inputConfirmPassword">Confirme Contraseña</label>
+            </div>
+
+            <button class="btn btn-lg btn-primary btn-block submit" type="submit">
+              Registrarme</button>
+            <a href="login.html" class="text-center linkr btn-block">Ingresar</a>
+         </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="section-footer">
+    <div class="container">
+        <section class="footer-bottom row">
+            <div class="col-sm-6">
+                <p>Trabajo práctico número 2: Pokémon. </p>
+                <p>Integrantes: Karlen Ivan, Aguayo Diana, Delgado Rosario.</p>
+                <p>2019 UNLaM - Programación Web II</p>
+            </div>
+            <div class="col-sm-6">
+                <p class="text-sm-right">
+                    Links<br>
+                    <a href="Index.html">Inicio</a><br>
+                    <a  href="login.html">Ingresar</a><br>
+                    <a href="registro.html">Registrarse</a>
+                </p>
+            </div>
+        </section> <!-- //footer-top -->
+    </div><!-- //container -->
+</footer>
+</body>
+</html>
+
