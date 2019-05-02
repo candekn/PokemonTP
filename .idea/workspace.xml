@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb7ea4a7-8913-4f02-b904-a99221f8f8c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/photothumb.db" beforeDir="false" afterPath="$PROJECT_DIR$/img/photothumb.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +70,19 @@
         <entry file="file://$PROJECT_DIR$/Flareon.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="217">
-              <caret line="32" column="21" lean-forward="true" selection-end-line="107" selection-end-column="7" />
+              <caret line="32" column="21" selection-end-line="107" selection-end-column="7" />
+              <folding>
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Espeon.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="45" column="68" selection-end-line="109" selection-end-column="7" />
               <folding>
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -80,10 +91,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Espeon.html">
+        <entry file="file://$PROJECT_DIR$/Umbreon.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+            <state relative-caret-position="62">
+              <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
               <folding>
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -115,11 +126,13 @@
       <find>Password</find>
       <find>linkr</find>
       <find>flareon</find>
+      <find>Espeon</find>
     </findStrings>
     <replaceStrings>
       <replace>Nombre de usuario</replace>
       <replace>Contraseña</replace>
       <replace>Espeon</replace>
+      <replace>Umbreon</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -143,6 +156,7 @@
         <option value="$PROJECT_DIR$/Jolteon.html" />
         <option value="$PROJECT_DIR$/Flareon.html" />
         <option value="$PROJECT_DIR$/Espeon.html" />
+        <option value="$PROJECT_DIR$/Umbreon.html" />
       </list>
     </option>
   </component>
@@ -214,7 +228,7 @@
       <workItem from="1556676190667" duration="5226000" />
       <workItem from="1556809079862" duration="5432000" />
       <workItem from="1556816912303" duration="8535000" />
-      <workItem from="1556825631938" duration="4488000" />
+      <workItem from="1556825631938" duration="5352000" />
     </task>
     <task id="LOCAL-00001" summary="flareon add">
       <created>1556829685153</created>
@@ -227,7 +241,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33136000" />
+    <option name="totallyTimeSpent" value="34000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
@@ -422,7 +436,7 @@
     <entry file="file://$PROJECT_DIR$/Flareon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
-          <caret line="32" column="21" lean-forward="true" selection-end-line="107" selection-end-column="7" />
+          <caret line="32" column="21" selection-end-line="107" selection-end-column="7" />
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -432,7 +446,17 @@
     <entry file="file://$PROJECT_DIR$/Espeon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
-          <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+          <caret line="45" column="68" selection-end-line="109" selection-end-column="7" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Umbreon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
