@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb7ea4a7-8913-4f02-b904-a99221f8f8c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Sylveon.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sylveon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Sylveon1.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/photothumb.db" beforeDir="false" afterPath="$PROJECT_DIR$/img/photothumb.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Leafeon.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
@@ -51,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sylveon.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2480">
-              <caret line="80" column="51" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
+            <state relative-caret-position="434">
+              <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
               <folding>
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -96,8 +98,8 @@
       <replace>Espeon</replace>
       <replace>Umbreon</replace>
       <replace>Glaceon</replace>
-      <replace>Leafeon</replace>
       <replace>Sylveon</replace>
+      <replace>Leafeon</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -124,12 +126,12 @@
         <option value="$PROJECT_DIR$/Umbreon.html" />
         <option value="$PROJECT_DIR$/js/Glaceon.html" />
         <option value="$PROJECT_DIR$/Glaceon.html" />
-        <option value="$PROJECT_DIR$/Sylveon.html" />
         <option value="$PROJECT_DIR$/Leafeon.html" />
+        <option value="$PROJECT_DIR$/Sylveon.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -202,7 +204,7 @@
       <workItem from="1556676190667" duration="5226000" />
       <workItem from="1556809079862" duration="5432000" />
       <workItem from="1556816912303" duration="8535000" />
-      <workItem from="1556825631938" duration="6387000" />
+      <workItem from="1556825631938" duration="7547000" />
     </task>
     <task id="LOCAL-00001" summary="flareon add">
       <created>1556829685153</created>
@@ -215,7 +217,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35035000" />
+    <option name="totallyTimeSpent" value="36195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
@@ -444,16 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sylveon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2480">
-          <caret line="80" column="51" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Glaceon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -468,6 +460,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="79" column="44" lean-forward="true" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sylveon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
