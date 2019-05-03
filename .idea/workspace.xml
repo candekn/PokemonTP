@@ -5,9 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb7ea4a7-8913-4f02-b904-a99221f8f8c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Sylveon.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sylveon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Sylveon1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eevee.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Espeon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flareon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Glaceon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jolteon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leafeon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sylveon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Umbreon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vaporeon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Eevee1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Espeon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Espeon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Espeon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Espeon4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Flareon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Flareon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Glaceon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Glaceon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Glaceon5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Leafeon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Leafeon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Leafeon4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Sylveon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Umbreon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Umbreon3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Umbreon4.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Vaporeon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Vaporeon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/flareon4.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/jolteon4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/jolteon5.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/photothumb.db" beforeDir="false" afterPath="$PROJECT_DIR$/img/photothumb.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,58 +50,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Umbreon.html">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="55" column="44" lean-forward="true" selection-end-line="107" selection-end-column="7" />
-              <folding>
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="2205">
+              <caret line="105" column="12" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Glaceon.html">
+        <entry file="file://$PROJECT_DIR$/Flareon.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
-              <folding>
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leafeon.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="79" column="44" lean-forward="true" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
-              <folding>
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sylveon.html">
+        <entry file="file://$PROJECT_DIR$/Espeon.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-              <folding>
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
+        <entry file="file://$PROJECT_DIR$/mostrar.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3255">
-              <caret line="105" column="12" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
+            <state relative-caret-position="1281">
+              <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recursos/encabezado.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -91,6 +116,7 @@
       <find>flareon</find>
       <find>Espeon</find>
       <find>Umbreon</find>
+      <find>.png</find>
     </findStrings>
     <replaceStrings>
       <replace>Nombre de usuario</replace>
@@ -100,6 +126,7 @@
       <replace>Glaceon</replace>
       <replace>Sylveon</replace>
       <replace>Leafeon</replace>
+      <replace>.jpg</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -111,7 +138,6 @@
         <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/php/Bdconexion.php" />
         <option value="$PROJECT_DIR$/php/vLogin.php" />
-        <option value="$PROJECT_DIR$/Index.php" />
         <option value="$PROJECT_DIR$/Barra navegacion con logo.html" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/registro.html" />
@@ -122,16 +148,19 @@
         <option value="$PROJECT_DIR$/Vaporeon.html" />
         <option value="$PROJECT_DIR$/Jolteon.html" />
         <option value="$PROJECT_DIR$/Flareon.html" />
-        <option value="$PROJECT_DIR$/Espeon.html" />
         <option value="$PROJECT_DIR$/Umbreon.html" />
         <option value="$PROJECT_DIR$/js/Glaceon.html" />
         <option value="$PROJECT_DIR$/Glaceon.html" />
         <option value="$PROJECT_DIR$/Leafeon.html" />
         <option value="$PROJECT_DIR$/Sylveon.html" />
+        <option value="$PROJECT_DIR$/Espeon.html" />
+        <option value="$PROJECT_DIR$/recursos/encabezado.php" />
+        <option value="$PROJECT_DIR$/Index.php" />
+        <option value="$PROJECT_DIR$/Espeon.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -143,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,15 +179,11 @@
               <item name="PokemonTP" type="b2602c69:ProjectViewProjectNode" />
               <item name="PokemonTP" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PokemonTP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PokemonTP" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,6 +229,8 @@
       <workItem from="1556809079862" duration="5432000" />
       <workItem from="1556816912303" duration="8535000" />
       <workItem from="1556825631938" duration="7547000" />
+      <workItem from="1556911012908" duration="181000" />
+      <workItem from="1556911298629" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="flareon add">
       <created>1556829685153</created>
@@ -217,13 +243,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36195000" />
+    <option name="totallyTimeSpent" value="36744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524785" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -307,25 +332,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Barra navegacion con logo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="56" selection-start-line="56" selection-end-line="74" selection-end-column="9" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Barra navegacion con logo.html" />
+    <entry file="file://$PROJECT_DIR$/login.html" />
     <entry file="file://$PROJECT_DIR$/registro.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -348,131 +356,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1891">
-          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.html" />
+    <entry file="file://$PROJECT_DIR$/item detalles y relacionados.html" />
+    <entry file="file://$PROJECT_DIR$/Eevee.html" />
+    <entry file="file://$PROJECT_DIR$/Vaporeon.html" />
+    <entry file="file://$PROJECT_DIR$/Jolteon.html" />
+    <entry file="file://$PROJECT_DIR$/Flareon.html" />
+    <entry file="file://$PROJECT_DIR$/js/Glaceon.html" />
+    <entry file="file://$PROJECT_DIR$/Umbreon.html" />
+    <entry file="file://$PROJECT_DIR$/Glaceon.html" />
+    <entry file="file://$PROJECT_DIR$/Leafeon.html" />
+    <entry file="file://$PROJECT_DIR$/Sylveon.html" />
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3255">
+        <state relative-caret-position="2205">
           <caret line="105" column="12" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item detalles y relacionados.html">
+    <entry file="file://$PROJECT_DIR$/Flareon.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="n#h1#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Eevee.html">
+    <entry file="file://$PROJECT_DIR$/recursos/encabezado.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="77" selection-end-line="102" selection-end-column="7" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="42">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vaporeon.html">
+    <entry file="file://$PROJECT_DIR$/mostrar.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="1281">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jolteon.html">
+    <entry file="file://$PROJECT_DIR$/Espeon.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="45" column="96" selection-end-line="105" selection-end-column="7" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flareon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="32" column="21" selection-end-line="107" selection-end-column="7" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Espeon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="45" column="68" selection-end-line="109" selection-end-column="7" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Glaceon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Umbreon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="55" column="44" lean-forward="true" selection-end-line="107" selection-end-column="7" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Glaceon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leafeon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="79" column="44" lean-forward="true" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sylveon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
         </state>
       </provider>
     </entry>
