@@ -1,3 +1,5 @@
+
+
 <!<!doctype html>
 <html lang="es">
 <head>
@@ -18,12 +20,13 @@
 <body>
 <nav class="navbar justify-content-between">
     <a class="navbar-brand" href="Index.html"></a>
-    <form class="form-inline">
-        <input class="form-control mr-sm-3" type="search" placeholder="Buscar..."
+    <form class="form-inline" method="post" action="../PokemonTP/mostrar.php">
+        <input class="form-control mr-sm-3" name="buscar" type="search" placeholder="Buscar..."
                aria-label="Search">
-        <button class="btn submit buscar" type="submit">Buscar</button>
+        <button class="btn submit buscar" type="submit" >Buscar</button>
     </form>
 </nav>
+
 
 <div class="row text-center text-lg-left portfolio">
 
@@ -79,3 +82,7 @@
 </body>
 </html>
 
+
+<?php
+include_once '../PokemonTP/mostrar.html';
+?>
