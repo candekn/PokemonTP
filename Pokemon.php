@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Glaceon - Wikeevee</title>
+    <title>A - Wikeevee</title>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,
@@ -16,36 +16,40 @@
     <script src="js/jquery_3.2.1_jquery.js"></script>
 </head>
 <body>
-<?php require_once("recursos/encabezado.php");?>
+<?php require_once("recursos/encabezado.php");
+
+
+
+//capturamos el id de la imagen que pasamos por parametro
+$cod=$_GET["parametro"];
+$conect = mysqli_connect("localhost","root","1234","pokemons");//
+
+	$busqueda=mysqli_query($conect, "SELECT * FROM personajes WHERE id =$cod");
+
+	while($f=mysqli_fetch_array($busqueda))
+	{
+
+?>
 <div class="container containerP">
 
     <!-- Portfolio Item Heading -->
-    <h1 class="my-4">Glaceon</h1>
+    <h1 class="my-4"><?php echo $f["nombre"];?></h1>
 
     <!-- Portfolio Item Row -->
     <div class="row">
 
         <div class="col-md-8">
-            <img class="img-fluid" src="img/Glaceon1.jpg" alt="">
+            <img class="img-fluid" src="img/<?php echo $f["nombre"];?>1.jpg" alt="">
         </div>
 
         <div class="col-md-4">
             <h3 class="my-3">Descripción</h3>
-            <p>Cuando subas un nivel a un <a href="Eevee.php">Eevee</a>, exponiéndolo a la roca hielo, evolucionará en Glaceon.
-                Se convertirá en un Pokémon de tipo hielo, poseerá mucha elegancia al andar. A pesar de
-                parecer algo frío, en realidad, es muy cariñoso con su entrenador. Cuando se enfada, su
-                carácter noble se convierte en agresivo e hiriente, por lo que muchas veces, después del
-                problema, se arrepiente y tiende a alejarse en solitario para tranquilizarse, ya que tiende
-                a ser arrebatado.
-                Su naturaleza abierta y espontánea lo hace un Pokémon con mucha estrella.</p>
+            <p><?php echo $f["descripcion"];?></p>
             <h3 class="my-3">Datos</h3>
             <ul>
-                <li>Especie: Nieve Fresca</li>
-                <li>Tipo: Hielo</li>
-                <li>Habilidades: Manto níveo(1)</li>
-                <li>Hab. oculta: Gélido</li>
-                <li>Grupo huevo: Campo</li>
-                <li>Generación: Cuarta</li>
+                <li>Especie: <?php echo $f["especie"];?></li>
+                <li>Tipo: <?php echo $f["tipo"];?></li>
+                <li>Generación: <?php echo $f["generacion"];?></li>
             </ul>
         </div>
 
@@ -58,25 +62,28 @@
     <div class="row">
 
         <div class="col-md-3 col-sm-6 mb-4">
-            <img class="img-fluid" src="img/Glaceon4.jpg" alt="">
+                <img class="img-fluid" src="img/<?php echo $f["nombre"];?>2.jpg" alt="">
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
-            <img class="img-fluid" src="img/Glaceon2.jpg" alt="">
+                <img class="img-fluid" src="img/<?php echo $f["nombre"];?>3.jpg" alt="">
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
-            <img class="img-fluid" src="img/Glaceon3.jpg" alt="">
+                <img class="img-fluid" src="img/<?php echo $f["nombre"];?>4.jpg" alt="">
         </div>
 
         <div class="col-md-3 col-sm-6 mb-4">
-            <img class="img-fluid" src="img/Glaceon5.jpg" alt="">
+                <img class="img-fluid" src="img/<?php echo $f["nombre"];?>5.jpg" alt="">
         </div>
 
     </div>
     <!-- /.row -->
 
 </div>
-  <?php require_once("recursos/footer.php");?>
+  <?php
+  }//fin del while
+  require_once("recursos/footer.php");
+  ?>
 </body>
 </html>
