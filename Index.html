@@ -18,8 +18,14 @@
     <title>Inicio - Wikeevee</title>
 </head>
 <body>
-<?php require_once("recursos/encabezado.php");?>
-
+<nav class="navbar justify-content-between">
+    <a class="navbar-brand" href="Index.html"></a>
+    <form class="form-inline" method="post" action="../PokemonTP/mostrar.php">
+        <input class="form-control mr-sm-3" name="buscar" type="search" placeholder="Buscar..."
+               aria-label="Search">
+        <button class="btn submit buscar" type="submit" >Buscar</button>
+    </form>
+</nav>
 
 
 <div class="row text-center text-lg-left portfolio">
@@ -53,9 +59,30 @@
     </div>
 </div>
 
-<?php
-require_once("recursos/footer.php");
-?>
+
+<footer class="section-footer">
+    <div class="container">
+        <section class="footer-bottom row">
+            <div class="col-sm-6">
+                <p>Trabajo práctico número 2: Pokémon. </p>
+                <p>Integrantes: Karlen Ivan, Aguayo Diana, Delgado Rosario.</p>
+                <p>2019 UNLaM - Programación Web II</p>
+            </div>
+            <div class="col-sm-6">
+                <p class="text-sm-right">
+                    Links<br>
+                    <a href="Index.html">Inicio</a><br>
+                    <a  href="login.html">Ingresar</a><br>
+                    <a href="registro.html">Registrarse</a>
+                </p>
+            </div>
+        </section> <!-- //footer-top -->
+    </div><!-- //container -->
+</footer>
 </body>
 </html>
 
+
+<?php
+include_once '../PokemonTP/mostrar.html';
+?>
