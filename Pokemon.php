@@ -19,20 +19,20 @@
 <?php require_once("recursos/encabezado.php");
 
 
-
-//capturamos el id de la imagen que pasamos por parametro
-$cod=$_GET["parametro"];
-$conect = mysqli_connect("localhost","root","1234","pokemons");//
-
-	$busqueda=mysqli_query($conect, "SELECT * FROM personajes WHERE id =$cod");
-
-	while($f=mysqli_fetch_array($busqueda))
-	{
-
-?>
-<div class="container containerP">
-
-    <!-- Portfolio Item Heading -->
+ 
+//capturamos el id de la imagen que pasamos por parametro 
+$cod=$_GET["parametro"]; 
+$conect = mysqli_connect("localhost","root",11021998,"pokemons");// 
+ 
+	$busqueda=mysqli_query($conect, "SELECT * FROM personajes WHERE id =$cod"); 
+ 
+	while($f=mysqli_fetch_array($busqueda)) 
+	{ 
+ 
+?> 
+<div class="container containerP"> 
+ 
+    <!-- Portfolio Item Heading --> 
     <h1 class="my-4"><?php echo $f["nombre"];?></h1>
 
     <!-- Portfolio Item Row -->

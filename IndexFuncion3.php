@@ -26,7 +26,7 @@ require_once("recursos/encabezado.php");
 
 //capturamos el id de la imagen que pasamos por parametro
 $cod=$_GET["parametro"];
-$conect = mysqli_connect("localhost","root","1234","pokemons");//
+$conect = mysqli_connect("localhost","root",11021998,"pokemons");//
 
 	$busqueda=mysqli_query($conect, "SELECT * FROM personajes WHERE id =$cod");
 
@@ -34,9 +34,9 @@ $conect = mysqli_connect("localhost","root","1234","pokemons");//
 	while($f=mysqli_fetch_array($busqueda))
 	{
 	
-?>
-<img src="img/<?php echo $f['nombre'].'.jpg';?>" alt="" class="img-fluid img-thumbnail"  />
+?>														
 
+<img class="imagenphp" src="img/<?php echo $f['nombre'].'.jpg';?>" alt="" />
 <?php
 }//fin del while
 require_once("recursos/footer.php");
