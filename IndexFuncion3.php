@@ -15,16 +15,6 @@
           href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
     <script src="js/jquery_3.2.1_jquery.js"></script>
     <title>Inicio - Wikeevee</title>
-	
-	<!--Recibe por parametro el id de la imagen seleccionada-->
-	<script>
-	function mostrar(cod){
-	<!--Envio el id a una nueva pagina(IndexFuncion3)-->
-	<!-- para enviar por get usamos el signo ? parametro = al cod que estamos recibiendo-->
-	window.location="http://localhost/PokemonTP2/IndexFuncion3.php?parametro="+cod;
-	}
-	</script>
-	
 </head>
 <body>
 <nav class="navbar justify-content-between">
@@ -39,29 +29,21 @@
 
 
 <?php
-
-
-if(isset($_POST['enviar'])){
-
-
-$busca = $_POST['buscar'];	
-
+//capturamos el id de la imagen que pasamos por parametro
+$cod=$_GET["parametro"];
 $conect = mysqli_connect("localhost","root","Cuc41515","pokemons");// 
 
-	$busqueda=mysqli_query($conect, "SELECT * FROM personajes WHERE nombre LIKE '%".$busca."%'");
+	$busqueda=mysqli_query($conect, "SELECT * FROM personajes WHERE id =$cod");
 
 	while($f=mysqli_fetch_array($busqueda))
 	{
+	
 ?>
-
-<!--Agrego funcion onclick para capturar el is de la imagen al hacer click -->
-<!--Muestro las imagenes fuera del php para que me tome el onclick-->
-<img src="img/<?php echo $f['nombre'].'.jpg';?>" alt="" class="img-fluid img-thumbnail" onclick="mostrar(<?php echo $f['id'];?>)" />
+<img src="img/<?php echo $f['nombre'].'.jpg';?>" alt="" class="img-fluid img-thumbnail"  />
 
 <?php
-}	}
+}//fin del while
 ?>
-
 
 <footer class="section-footer">
     <div class="container">
