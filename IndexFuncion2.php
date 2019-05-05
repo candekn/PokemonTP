@@ -40,17 +40,26 @@ if(isset($_POST['enviar'])){
 
 $busca = $_POST['buscar'];	
 
-$conect = mysqli_connect("localhost","root","1234","pokemons");//
+$conect = mysqli_connect("localhost","root",11021998,"pokemons");//
 
 	$busqueda=mysqli_query($conect, "SELECT * FROM personajes WHERE nombre LIKE '%".$busca."%'");
-
+	
+	if(mysqli_num_rows($busqueda)<=0)
+	{?>
+	
+	<h3 style="text-align:center; color:black; padding-top:20px">No se han encontrado resultados para tu busqueda</h3>
+	<img class="imagenphpp" src="img/pokemontriste.jpg">
+	
+<?php
+	}
+	
 	while($f=mysqli_fetch_array($busqueda))
 	{
 ?>
 
 <!--Agrego funcion onclick para capturar el is de la imagen al hacer click -->
 <!--Muestro las imagenes fuera del php para que me tome el onclick-->
-<img src="img/<?php echo $f['nombre'].'.jpg';?>" alt="" class="img-fluid img-thumbnail"
+<img class="imagenphp" src="img/<?php echo $f['nombre'].'.jpg';?>" alt="" 
 onclick="mostrar(<?php echo $f["id"];?>)" />
 
 <?php
