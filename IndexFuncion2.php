@@ -46,7 +46,7 @@ $conect = mysqli_connect("localhost","root",11021998,"pokemons");//
 	echo "<br>";
 	echo '<img  src= "img/'.$f['nombre'].'.jpg" class="imagenphp"> ';
 	echo '<button class="btn submit buscar" name="VerMas" action="IndexFuncion.php" type="submit" margin-left=60px>Yo te Elijo</button>';
-	echo "<br>";
+	echo "<br>"; 
 	}
 	
 	
