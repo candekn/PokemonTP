@@ -3,7 +3,7 @@
 
 $busca="";
 $busca=$_POST['buscar'];
-$conect = mysqli_connect("localhost","root",11021998,"pokemons");// si haces conexion desde
+$conect = mysqli_connect("localhost","root","Cuc41515","pokemons");// si haces conexion desde
 // internnet usa 3 parametros si es a nivel local solo 2
 //$conect = mysqli_select_db("");//nombre de la base de datos
 

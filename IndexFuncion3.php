@@ -26,7 +26,7 @@ require_once("recursos/encabezado.php");
 
 //capturamos el id de la imagen que pasamos por parametro
 $cod=$_GET["parametro"];
-$conect = mysqli_connect("localhost","root",11021998,"pokemons");//
+$conect = mysqli_connect("localhost","root","Cuc41515","pokemons");//
 
 	$busqueda=mysqli_query($conect, "SELECT * FROM personajes WHERE id =$cod");
 

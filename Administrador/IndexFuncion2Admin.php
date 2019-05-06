@@ -7,8 +7,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,
           minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css"
           href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css"
@@ -23,7 +23,8 @@
 	<!--Envio el id a una nueva pagina(Pokemon)-->
 	<!-- para enviar por get usamos el signo ? parametro = al cod que estamos recibiendo-->
 
-	window.location="Pokemon.php?parametro="+cod;
+	window.location="PokemonAdmin.php?parametro="+cod;
+	//window.location="procesa.php?parametro="+cod;
 	}
 	</script>
 	
@@ -31,11 +32,8 @@
 </head>
 <body>
 
-
-
-
 <?php
-require_once("recursos/encabezado.php");
+require_once("recursos/encabezadoAdmin.php");
 
 if(isset($_POST['enviar'])){
 
@@ -50,7 +48,7 @@ $conect = mysqli_connect("localhost","root","Cuc41515","pokemons");//
 	{?>
 	
 	<h3 style="text-align:center; color:black; padding-top:20px">No se han encontrado resultados para tu busqueda</h3>
-	<img class="imagenphpp" src="..img/pokemontriste.jpg">
+	<img class="imagenphpp" src="../img/pokemontriste.jpg">
 	
 <?php
 	}
@@ -62,16 +60,21 @@ $conect = mysqli_connect("localhost","root","Cuc41515","pokemons");//
 <!--Agrego funcion onclick para capturar el is de la imagen al hacer click -->
 <!--Muestro las imagenes fuera del php para que me tome el onclick-->
 <!---Agrego cursor tipo pointer al pasar el mouse por la imagen-->
-<img class="imagenphp" src="img/<?php echo $f['nombre'].'.jpg';?>" style="cursor:pointer" alt=""  
+<img class="imagenphp" src="../img/<?php echo $f['nombre'].'.jpg';?>" style="cursor:pointer" alt=""  
 onclick="mostrar(<?php echo $f["id"];?>)" />
 
 <?php
 }	}
 
-require_once("recursos/footer.php");
+//require_once("recursos/footerAdmin.php");
 ?>
 
 
 </body>
+<?php
+
+
+require_once("recursos/footerAdmin.php");
+?>
 </html>
 
