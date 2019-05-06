@@ -1,4 +1,3 @@
-<!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -23,14 +22,14 @@
             <div class="card card-signin my-5">
                 <div class="card-body">
                     <h5 class="card-title text-center">¡Bienvenido!</h5>
-                    <form class="form-signin" method="post" action="php/vLogin.php">
+                    <form class="form-signin" method="post" action="procesarlogin.php">
                         <div class="form-label-group">
-                            <input type="email" id="inputEmail" class="form-control"
+                            <input type="email" name="email" id="inputEmail" class="form-control"
                                    placeholder="Ejemplo@email.xyz" required autofocus>
                             <label for="inputEmail" class="labels">Ingrese su email</label>
                         </div>
                         <div class="form-label-group">
-                            <input type="password" id="inputPassword" class="form-control"
+                            <input type="password" name="pass" id="inputPassword" class="form-control"
                                    placeholder="Contraseña" required>
                             <label for="inputPassword" class="labels">Ingrese su contraseña</label>
                         </div>
@@ -38,8 +37,7 @@
                         <button class="btn btn-lg btn-block submit"
                                 type="submit">Ingresar</button>
                     </form>
-                    <a href="registro.html" class="text-center linkr btn-block">Registrarme
-                    </a>
+                    
                 </div>
             </div>
         </div>

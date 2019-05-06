@@ -8,10 +8,9 @@
             </div>
             <div class="col-sm-6">
                 <p class="text-sm-right">
-                    Links<br>
-                    <a href="Index.html">Inicio</a><br>
-                    <a  href="login.html">Ingresar</a><br>
-                    <a href="registro.html">Registrarse</a>
+             
+                    <a  href="login.php">Ingresar</a><br>
+                   
                 </p>
             </div>
         </section> <!-- //footer-top -->

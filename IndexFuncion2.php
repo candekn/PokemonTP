@@ -42,7 +42,7 @@ if(isset($_POST['enviar'])){
 
 $busca = $_POST['buscar'];	
 
-$conect = mysqli_connect("localhost","root","Cuc41515","pokemons");//
+$conect = mysqli_connect("localhost","root",11021998,"pokemons");//
 
 	$busqueda=mysqli_query($conect, "SELECT * FROM personajes WHERE nombre LIKE '%".$busca."%'");
 	
