@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+$usuario = $_SESSION['username'];
+
+if(!isset($usuario))
+{
+	header("location: ../login.php");
+}
+?>
 
 <!<!doctype html>
 <html lang="es">
@@ -18,6 +28,7 @@
 </head>
 <body>
 <?php require_once("recursos/encabezadoAdmin.php");?>
+
 
 
 
