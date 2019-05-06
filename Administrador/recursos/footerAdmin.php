@@ -1,3 +1,5 @@
+
+
 <footer class="section-footer">
     <div class="container">
         <section class="footer-bottom row">
@@ -8,8 +10,8 @@
             </div>
             <div class="col-sm-6">
                 <p class="text-sm-right">
-                    Links<br>
-                    <a href="Index.html">Inicio</a><br>
+                    <a href="CerrarSesion.php">Cerrar Sesion</a><br>
+                    
                     
                 </p>
             </div>
