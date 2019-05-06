@@ -1,7 +1,18 @@
 <?php
+session_start();
+
+$usuario = $_SESSION['username'];
+
+if(!isset($usuario))
+{
+	header("location: ../login.php");
+}
+?>
+
+<?php
 
 $cod=$_GET["parametro"];
-	$conect = mysqli_connect("localhost","root","Cuc41515","pokemons");
+	$conect = mysqli_connect("localhost","root",11021998,"pokemons");
     $busqueda=mysqli_query($conect, "SELECT * FROM personajes WHERE id=$cod");
 
 $nombre='';

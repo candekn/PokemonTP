@@ -1,4 +1,13 @@
+<?php
+session_start();
 
+$usuario = $_SESSION['username'];
+
+if(!isset($usuario))
+{
+	header("location: ../login.php");
+}
+?>
 <?php
 //recibo el id de la imagen a borrar
 $cod=$_GET["parametro"]; 
